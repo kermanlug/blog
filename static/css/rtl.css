@@ -223,3 +223,12 @@ input[type="email"], input[type="tel"], input[type="text"], input[type="password
 		flex-direction: column-reverse;	
 	}
 }
+
+
+/*==================================
+=            categories            =
+==================================*/
+#wrapper #main h1 {
+	text-align: right;
+}
+
