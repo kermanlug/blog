@@ -73,6 +73,8 @@ body{
 =            post            =
 ============================*/
 
+
+
 ul li,ul li a h3,ul li a p {
 	text-align: right;
 	direction: rtl;
@@ -213,5 +215,11 @@ input[type="email"], input[type="tel"], input[type="text"], input[type="password
 
 	#sidebar{
 		margin-left: 0px;
+	}
+
+	#wrapper{
+		display: flex;
+
+		flex-direction: column-reverse;	
 	}
 }
