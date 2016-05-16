@@ -34,7 +34,7 @@
         <section id="recent-posts">
             <ul class="posts">
                 <header>
-                    <h3>Recent Posts</h3>
+                    <h3>پست های اخیر</h3>
                 </header>
                 {{ if .Site.Params.orderByPublishDate }}
                     {{ $.Scratch.Set "recentPosts" .Site.Pages.ByPublishDate.Reverse }}
@@ -75,7 +75,7 @@
                             {{ else }}
                                 "/post/"
                             {{ end }}
-                            class="button">View more posts</a></li>
+                            class="button">پست‌ های بیشتر</a></li>
                         </ul>
                     </li>
                 {{ end }}
@@ -89,7 +89,7 @@
         <section id="categories">
             <ul class="posts">
                 <header>
-                    <h3><a href="/categories/">Categories</a></h3>
+                    <h3><a href="/categories/">دسته بندی</a></h3>
                 </header>
 
                 {{ if .Site.Params.categoriesByCount }}
@@ -103,7 +103,7 @@
                         <article>
                             <header>
                                 <a href="/categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
-                                <span style="float:right;">{{ $value.Count }}</span>
+                                <span style="float:left;">{{ $value.Count }}</span>
                             </header>
                         </article>
                     </li>
@@ -115,11 +115,11 @@
     <!-- About -->
         {{ with .Site.Params.intro.about }}
         <section class="blurb">
-            <h2>About</h2>
+            <h2>درباره ما</h2>
             <p>{{ . }}</p>
 
             <ul class="actions">
-                <li><a href="/about/" class="button">Learn More</a></li>
+                <li><a href="/about/" class="button">بیشتر بدانید</a></li>
             </ul>
         </section>
         {{ end }}

@@ -1,21 +1,13 @@
 {{ partial "header" . }}
     {{ $.Scratch.Set "shareNav" true }}
     {{ partial "navbar" . }}
-
-      {{ partial "sidebar" . }}
     <!-- Main -->
     <div id="main">
-       {{ if .Site.Params.orderByPublishDate }}
-            {{ $paginator := .Paginate (where .Data.Pages.ByPublishDate.Reverse "Type" "post") }}
-        {{ else }}
-            {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
-        {{ end }}
+        {{ range first 1 (where .Site.Pages "Type" "post") }}
+            {{ .Render "content-single" }}
 
-        {{ range .Paginator.Pages }}
-            {{ .Render "content-list" }}
+            {{ partial "share-menu" . }}
         {{ end }}
-
-        {{ partial "pagination" . }}
     </div>
-  
+    {{ partial "sidebar" . }}
 {{ partial "footer" . }}
