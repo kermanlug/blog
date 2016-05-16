@@ -5,6 +5,7 @@ date = "2014-09-28"
 description = "Learn how to create a theme on Hugo"
 featured = "pic01.jpg"
 featuredalt = ""
+draft = true
 featuredpath = "date"
 linktitle = ""
 title = "Creating a New Theme"

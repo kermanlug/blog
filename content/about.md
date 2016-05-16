@@ -1,5 +1,5 @@
 +++
-title = "About Hugo"
+title = "درباره لاگ"
 date = "2014-04-09"
 +++
 

@@ -1,6 +1,6 @@
-baseurl = "http://hugo.spf13.com/"
-languageCode = "en-us"
-title = "Hugo Future Imperfect"
+baseurl = "localhost:1313"
+languageCode = "fa-ir"
+title = "کرمان لاگ | گروه کاربران لینوکس کرمان"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -9,9 +9,9 @@ googleAnalytics = ""
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
-    description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+    description          = "کرمان لاگ | گروه کاربران گنو/لینوکس کرمان | وبلاگ"
     # This will appear on the top left of the navigation bar
-    navbarTitle          = "Future Imperfect"
+    navbarTitle          = "کرمان لاگ"
     # Social media buttons that appear on the sidebar
     socialAppearAtTop    = true
     socialAppearAtBottom = true
@@ -20,7 +20,7 @@ googleAnalytics = ""
 
 # Optional Params
     categoriesByCount    = true
-    includeReadingTime   = true
+    includeReadingTime   = false
     # The set of favicons used are based on the write-up from this link:
     # https://github.com/audreyr/favicon-cheat-sheet
     # Please see the favicon partial template for more information
@@ -35,17 +35,17 @@ googleAnalytics = ""
     # customJS             = ["default", "/path/to/file"]
 
     # Loading min files for exampleSite
-    customCSS            = ["/css/main.min.css"]
+    customCSS            = ["/css/main.min.css","/css/rtl.css"]
     customJS             = ["/js/main.min.js"]
 
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
 [params.intro]
-    header    = "Hugo Future Imperfect"
+    header    = "وبلاگ گروه کاربران لینوکس کرمان"
 
-    paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+    paragraph = ""
 
-    about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+   # about     = "گروه لاگ در نظر دارد برای شرکت فلان و ....."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
@@ -57,7 +57,7 @@ googleAnalytics = ""
     circle    = false
     imperfect = true
     width     = ""
-    alt       = "Hugo Future Imperfect"
+    alt       = "گروه کاربری لینوکس کرمان"
 
 # Adjust the amount of recent posts on the sidebar.
 # This is optional. The default value 5 will be used
@@ -67,18 +67,17 @@ googleAnalytics = ""
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
 [[menu.main]]
-    name = "Blog"
-    url = "/blog"
-    identifier = "fa fa-newspaper-o"
+    name = "خانه"
+    url = "/"
     weight = 1
 
-[[menu.main]]
-    name = "Categories"
-    url = "/categories"
-    weight = 2
+#[[menu.main]]
+#    name = "دسته بندی"
+#   url = "/categories"
+#   weight = 2
 
 [[menu.main]]
-    name = "About"
+    name = "درباره ما"
     url = "/about"
     weight = 3
 
@@ -86,7 +85,7 @@ googleAnalytics = ""
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
 # The social media icons will appear on the sidebar
 [social]
-    github          = "jpescador"
+    github          = "kermanlug"
     bitbucket       = ""
     jsfiddle        = ""
     codepen         = ""
@@ -112,5 +111,5 @@ googleAnalytics = ""
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = "julio_pescador"
+    twitter         = ""
     email           = ""

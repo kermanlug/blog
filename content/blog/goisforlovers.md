@@ -5,6 +5,7 @@ date = "2014-04-02"
 description = ""
 featured = "pic02.jpg"
 featuredalt = ""
+draft = true
 featuredpath = "date"
 linktitle = ""
 title = "(Hu)go Template Primer"

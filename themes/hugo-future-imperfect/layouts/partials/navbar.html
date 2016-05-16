@@ -28,7 +28,7 @@
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
                 <form id="search" method="get" action="//google.com/search">
-                    <input type="text" name="q" placeholder="Search" />
+                    <input type="text" name="q" placeholder="جستجو" />
                     <input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
                 </form>
             </li>
@@ -45,7 +45,7 @@
     <!-- Search -->
         <section>
             <form class="search" method="get" action="//google.com/search">
-                <input type="text" name="q" placeholder="Search" />
+                <input type="text" name="q" id="input_color" placeholder="جستجو" />
                 <input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
             </form>
         </section>
@@ -72,7 +72,7 @@
         <section>
             <ul class="links">
                 <header>
-                    <h3>Recent Posts</h3>
+                    <h3>پست های اخیر</h3>
                 </header>
                 {{ with .Site.Params.postAmount.sidebar }}
                     {{ $.Scratch.Set "postLimit" . }}

@@ -7,6 +7,7 @@ featured = ""
 featuredalt = ""
 featuredpath = ""
 linktitle = ""
+draft = true
 title = "Migrate to Hugo from Jekyll"
 type = "post"
 
