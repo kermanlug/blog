@@ -1,3 +1,5 @@
+{{ partial "general-title" . }}
+
 {{ partial "header" . }}
     {{ partial "navbar" . }}
 
@@ -5,9 +7,11 @@
     <!-- Main -->
     <div id="main">
         <article class="post">
-            <h1>
-                صفحه مورد نظر یافت نشد<i class="fa fa-frown-o"></i>
-            </h1>
+            {{ $.Scratch.Set "h1" true }}
+            {{ .Render "header" }}
+            <div id="content">
+                {{ .Content }}
+            </div>
         </article>
     </div>
    

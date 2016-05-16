@@ -1,11 +1,12 @@
-{{ partial "header" . }}
-    {{ $.Scratch.Set "shareNav" true }}
-    {{ partial "navbar" . }}
+{{ partial "general-title" . }}
 
-      {{ partial "sidebar" . }}
+{{ partial "header" . }}
+    {{ partial "navbar" . }}
     <!-- Main -->
     <div id="main">
-       {{ if .Site.Params.orderByPublishDate }}
+        <!-- Please note that the param orderByPublishDate is no longer being used
+             since the pagination is not what is expected. Use at your own risk! -->
+        {{ if .Site.Params.orderByPublishDate }}
             {{ $paginator := .Paginate (where .Data.Pages.ByPublishDate.Reverse "Type" "post") }}
         {{ else }}
             {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
@@ -17,5 +18,5 @@
 
         {{ partial "pagination" . }}
     </div>
-  
+    {{ partial "sidebar" . }}
 {{ partial "footer" . }}
