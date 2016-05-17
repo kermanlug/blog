@@ -1,4 +1,4 @@
-baseurl = "http://klug.ir/blog/"
+baseurl = ""
 languageCode = "fa-ir"
 title = "کرمان‌لاگ - وبلاگ"
 theme = "hugo-future-imperfect"
