@@ -1,22 +1,22 @@
-baseurl = "localhost:1313"
+baseurl = "http://klug.ir/blog/"
 languageCode = "fa-ir"
-title = "کرمان لاگ | گروه کاربران لینوکس کرمان"
+title = "کرمان‌لاگ - وبلاگ"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "shortname"
+disqusShortname = ""
 googleAnalytics = ""
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
     description          = "کرمان لاگ | گروه کاربران گنو/لینوکس کرمان | وبلاگ"
     # This will appear on the top left of the navigation bar
-    navbarTitle          = "کرمان لاگ"
+    navbarTitle          = "وبلاگ"
     # Social media buttons that appear on the sidebar
     socialAppearAtTop    = true
     socialAppearAtBottom = true
     # set this to the section name if section is not post
-    viewMorePostLink     = "/blog/"
+    viewMorePostLink     = ""
 
 # Optional Params
     categoriesByCount    = true
@@ -41,11 +41,11 @@ googleAnalytics = ""
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
 [params.intro]
-    header    = "وبلاگ گروه کاربران لینوکس کرمان"
+    header    = "وبلاگ گروه کاربران گنو/لینوکس کرمان"
 
-    paragraph = ""
+    paragraph = "<a href=\"http://html5up.net\">کرمان‌لاگ</a> > <a href=\"http://html5up.net\">وبلاگ</a> <i class='fa fa-hand-peace-o'></i>"
 
-   # about     = "گروه لاگ در نظر دارد برای شرکت فلان و ....."
+    about     = " ما، لاگ کرمان، با آموزش، پشتیبانی و ترویج نرم‌افزارهای آزاد (مانند سیستم‌عامل گنو/لینوکس) برای ارتقای استفادهٔ آگاهانه و هوشمندانه از رایانه‌ها در جامعه تلاش می‌کنیم. ماهانه نشست‌هایی را تشکیل می‌دهیم و اگر فرصتش پیش بیاید جشن‌ها و همایش‌هایی را برگزار می‌کنیم. همواره به دوستان جدید در لاگ خوش‌آمد می‌گوییم."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
@@ -57,7 +57,7 @@ googleAnalytics = ""
     circle    = false
     imperfect = true
     width     = ""
-    alt       = "گروه کاربری لینوکس کرمان"
+    alt       = "کرمان‌لاگ"
 
 # Adjust the amount of recent posts on the sidebar.
 # This is optional. The default value 5 will be used
@@ -67,19 +67,24 @@ googleAnalytics = ""
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
 [[menu.main]]
-    name = "خانه"
-    url = "/"
+    name = "ویکی"
+    url = "http://klug.ir/wiki"
     weight = 1
 
-#[[menu.main]]
-#    name = "دسته بندی"
-#   url = "/categories"
-#   weight = 2
-
 [[menu.main]]
-    name = "درباره ما"
-    url = "/about"
-    weight = 3
+    name = "خانه"
+    url = "/"
+    weight = 2
+    
+#[[menu.main]]
+#    name = "دسته‌بندی"
+#   url = "/categories"
+#   weight = 3
+
+#[[menu.main]]
+#    name = "درباره"
+#   url = "/about"
+#   weight = 4
 
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
@@ -111,5 +116,5 @@ googleAnalytics = ""
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = ""
-    email           = ""
+    twitter         = "kermanlug"
+    email           = "hello@klug.ir"
