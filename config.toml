@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "http://klug.ir/blog/"
 languageCode = "fa-ir"
 title = "کرمان‌لاگ - وبلاگ"
 theme = "hugo-future-imperfect"
@@ -35,7 +35,7 @@ googleAnalytics = ""
     # customJS             = ["default", "/path/to/file"]
 
     # Loading min files for exampleSite
-    customCSS            = ["/css/main.min.css","/css/rtl.css"]
+    customCSS            = ["css/main.min.css","css/rtl.css"]
     customJS             = ["/js/main.min.js"]
 
 # parms.intro will appear on the sidebar
