@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>کرمان‌لاگ - وبلاگ</title>
-    <link>http://klug.ir/blog/</link>
-    <description>Recent content on کرمان‌لاگ - وبلاگ</description>
+    <title>Posts on کرمان‌لاگ - وبلاگ</title>
+    <link>http://klug.ir/blog/post/</link>
+    <description>Recent content in Posts on کرمان‌لاگ - وبلاگ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <lastBuildDate>Tue, 17 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://klug.ir/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://klug.ir/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>داستان این سایت</title>
@@ -28,16 +28,6 @@
 &lt;p&gt;برای ویکی دورهٔ آزمایشی در نظر گرفته شده است و در صورتی‌که مشارکت‌کننده داشته باشد، به فعالیت خود ادامه خواهد داد. اعضای لاگ و دیگر کاربران علاقه‌مند می‌توانند در نوشتن/ویرایش درون‌مایهٔ ویکی مشارکت نمایند. لطفا &lt;a href=&#34;http://localhost:1313/wiki/meta/#%D9%81%D9%87%D8%B1%D8%B3%D8%AA&#34;&gt;برگه‌های راهنمای ویکی&lt;/a&gt; را بخوانید.&lt;/p&gt;
 
 &lt;p&gt;اگر در کار با بخش‌های مختلف سایت با مشکلی روبرو شدید و یا هر پرسشی داشتید، در بخش دیدگاه‌های پایین همین برگه، در اتاق‌های گفتگوی لاگ و یا با فرستادن رایانامه به نشانی hello&lt;i class=&#34;fa fa-at&#34;&gt;&lt;/i&gt;klug.ir می‌توانید مطرح کنید.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>پرسش‌های متداول</title>
-      <link>http://klug.ir/blog/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://klug.ir/blog/about/</guid>
-      <description>&lt;p&gt;&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; URL=&#39;http://klug.ir/faq&#39;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

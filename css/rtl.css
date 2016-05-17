@@ -1,201 +1,292 @@
-/* How to RTL this theme: the main part of RTLing work is done by
- * https://cdnjs.com/libraries/bootstrap-rtl
- */
-
-@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.2.0-rc2/css/bootstrap-rtl.min.css');
-
 @font-face {
-    font-family: 'Vazir';
-    src: url('../fonts/Vazir.woff') format('woff');
-    font-weight: normal;
+	font-family: 'Vazir';
+	src: url('../fonts/Vazir.woff') format('woff');
+	font-weight: normal;
 }
 
 @font-face {
-    font-family: 'Vazir';
-    src: url('../fonts/Vazir-Bold.woff') format('woff');
-    font-weight: bold;
+	font-family: 'Vazir';
+	src: url('../fonts/Vazir-Bold.woff') format('woff');
+	font-weight: bold;
 }
 
-body {
-    font-family: 'Vazir', 'arial', 'ubuntu' !important;
-    font-size: 18px !important;
+/*=============================
+=            fonts            =
+=============================*/
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big,
+blockquote, body, canvas, caption, center, cite, code, dd, del,
+details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure,
+footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe,
+img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output,
+p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub,
+summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul,
+var, video{
+	font-family: 'Vazir', 'pfont', 'Ubuntu';
 }
 
-.navbar-brand,
-.nav > li {
-    font-size: 22px !important;
-    font-weight: 400 !important;
+body{
+	background-color: #fcfcfc;
+}
+.post{
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-
-/*RTLing*/
-.navbar-right,
-.navbar-toggle {
-    float: left !important;
+#back-to-top{
+	color: unset;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-.fa {
-    padding-left: 5px;
-    padding-right: auto;
+#back-to-top :hover,
+#back-to-top:hover::before{
+	color:#000 !important;
 }
 
-pre {
-    direction: ltr;
+/*===============================
+=            sidebar            =
+===============================*/
+
+#footer .copyright, #menu .links > li a p{
+
+	letter-spacing: 0px;
+	font-size: 0.9em;
 }
 
-.list-inline {
-    margin-right: 22px !important;
+#sidebar{
+	direction: rtl;
+	margin-left: 3em;
+	margin-right: 0em;
 }
 
-/*Header Height*/
-.navbar-default {
-    padding: 6px 0 !important;
+#intro .logo {
+	width: 5em;
 }
 
-/*Colorizing*/
-body {
-    background-color: #000 !important
+#intro .logo::before{
+	background-image:none;
 }
 
-.navbar-default {
-    background-color: #FFEB3B !important;
-    border-color: #FFEB3B !important;
+/*=====  End of sidebar  ======*/
+
+
+/*============================
+=            post            =
+============================*/
+
+ul li,ul li a h3,ul li a p {
+	text-align: right;
+	direction: rtl;
 }
 
-footer {
-    background-color: #111 !important;
+ul li a{
+	text-align: left;
+	direction: ltr;
 }
 
-footer,
-footer a {
-    color: #fff !important;
+.post > footer .stats li, .post > header .meta{
+
+	border-right: 1px solid rgba(160, 160, 160, 0.3);
+	border-left: 0px;
 }
 
-footer .social-media .fa {
-    color: red  !important;
+.author, h1, h2, h3, h4, h5, h6{
+	letter-spacing: 0em;
 }
 
-.navbar-brand {
-    color: #000 !important;
+.post > footer .stats{
+	direction: rtl;
 }
 
-.navbar-toggle,
-.navbar-collapse {
-    border-color: #000 !important;
+.post > footer .stats li{
+	margin-right: 2em;
 }
 
-.btn-custom {
-    background-color: #FFEB3B !important;
-    border-color: #FBC02D !important;
-    color: #000 !important;
+.post > header {
+	direction: rtl;
 }
 
-.content-card {
-    /*background-color: #ffffff;*/
-    border-top: 3px solid #FBC02D !important;
+.author{
+	justify-content: inherit;
 }
 
-.card {
-    /*background-color: #ffffff;*/
-    border-top: 3px solid #FBC02D !important;
+article.post h2, article.post h3, article.post h4, article.post p{
+	direction: rtl;
 }
 
-/*header in hover*/
-.navbar-nav > li > a {
-    color: #000 !important;
+.actions li .button:hover{
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	/*border: 0px;*/
+	color:#000 !important;
+	transition: all 0.2s ease 0s !important;
+	-o-transition: all 0.2s ease 0s !important;
+	-webkit-transition: all 0.2s ease 0s !important;
+	-moz-transition: all 0.2s ease 0s !important;
 }
 
- .nav>li {
-    border-top: 6px solid #FFEB3B !important;
+.button, button, input[type="submit"], input[type="reset"], input[type="button"]{
+	box-shadow: inherit ;
+	-o-box-shadow: inherit ;
+	-moz-box-shadow: inherit ;
+	-webkit-box-shadow: inherit ;
+	letter-spacing: 0px;
+	border: 0.5px solid #F5f5f5;
+	font-size: 0.8em;
+	font-family: "Vazir";
+	font-weight: 400;
 }
 
- .nav>li:hover {
-    border-top: 6px solid #FFEB3B !important;
-    background-color: #fff;
+.post > footer .stats li, header p{
+	letter-spacing: 0px;
 }
 
-.navbar-nav > li > a:hover {
-    color: #000 !important;
+/*=====  End of post  ======*/
+
+
+/*============================
+=            menu            =
+============================*/
+
+#header .main .search input{
+	color:#F4F4F4;
 }
 
-    .nav>li {
-        margin: 0 5px !important;
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-    }
-
-.content-card .tags a:hover {
-    background-color: #FFEB3B !important;
-    color: #000 !important;
+#input_color{
+	color:#000;
 }
 
-a {
-    color: #D19500 !important;
+#menu .links{
+	direction: rtl;
 }
 
-h1 a,
-.posts-recent li a {
-    color: #333 !important;
+#header{
+	background-color: #056571;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-.content-card .tags a {
-    /*using default colors*/
-    color: #fff !important;
+#header h2,#header h1 a{
+	color: #FFF;
+	font-weight: 800;
 }
 
-pre {
-    background: rgba(0,0,0,.15) !important;
+#header .links a{
+	color: #FFF ;
+	opacity: 1;
+}
+#header .links ul li a{
+	letter-spacing: 0px;
+	font-family: "Vazir";
+	font-size: 0.8em;
+	font-weight:800;
 }
 
-/* Added for 404 page*/
-.not-found {
-    margin-bottom: -41px;
- }
- 
-/*====================Muut====================*/
+p a {
+	color: #263238;
+}
+
+#header .links ul li a:hover,
+#header .links ul li a:hover::before{
+	color: #FFF !important;
+	opacity:1 !important;
+}
+
+#header .main ul li > a::before{
+	color: #FFF;
+}
+
+input[type="email"], input[type="tel"], input[type="text"], input[type="password"], select, textarea{
+	text-align: right;
+}
+
+/*=====  End of menu  ======*/
+
+
+/*===================================
+=            single post            =
+===================================*/
+
+#social-share{
+	direction: rtl;
+}
+
+/*=====  End of single post  ======*/
+
+
+@media (max-width: 48em) {
+
+
+	#sidebar{
+		margin-left: 0px;
+	}
+
+	#wrapper{
+		display: flex;
+		flex-direction: column-reverse;	
+	}
+}
+
+/*==================================
+=            categories            =
+==================================*/
+
+#wrapper #main h1 {
+	text-align: right;
+}
+
+/*==================================
+=            Muut            =
+==================================*/
+.m-focused .m-postinput, .m-replyform .m-preview .m-post{
+	direction: rtl;
+}
+
 .m-page a {
-    color: #E5E5E5 !important;
+	color: #E5E5E5 !important;
 }
 
 .m-post-upload em {
-    color: #E5E5E5 !important;
-    margin: .2em !important;
+	color: #E5E5E5 !important;
+	margin: .2em !important;
 }
 
 .m-postinput {
-    box-shadow: 0 0 .2em #E5E5E5 inset !important;
-    border-color: #E5E5E5 !important;
-    color: #E5E5E5;
+	box-shadow: 0 0 .2em  inset !important;
+	border-color: #E5E5E5 !important;
+	color: #2d2d2d;
 }
 
 .moot button {
-    background-color: #E5E5E5 !important;
-    color: #000 !important;
+	background-color: #fff !important;
+	color: #3c3b3b !important;
 }
 
 .m-postinput, .m-focused .m-postinput {
-    padding-right: 30px !important;
+	padding-right: 30px !important;
 }
 
 #moot-logo {
-    padding: 0 !important;
+	padding: 0 !important;
 }
 
 .is-commenting .m-like, #moot-logo a {
-    display: none !important;
+	display: none !important;
 }
 
 .is-commenting .m-replyform {
-    margin-top: -2em !important;
-    margin-bottom: -6.2em;
-    }
-    
-   .m-preview .m-preview-title {
-       margin: auto !important;
+	margin-top: -2em !important;
+	margin-bottom: -6.2em;
+	}
+
+.m-preview .m-preview-title {
+	   margin: auto !important;
 }
 
-/*====================EXTRA elements====================*/ 
+/*=====  End of Muut  ======*/
+
+
+/*==================================
+=            EXTRA ELEMENTS            =
+==================================*/
 /* Use '<ltr>something_here</ltr>' where you need to show something from left side to right */
 ltr {
-    direction: ltr;
+	direction: ltr;
 }
