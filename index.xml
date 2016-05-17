@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>کرمان‌لاگ - وبلاگ</title>
-    <link>/</link>
+    <link>http://klug.ir/blog/</link>
     <description>Recent content on کرمان‌لاگ - وبلاگ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <lastBuildDate>Tue, 17 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://klug.ir/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>داستان این سایت</title>
-      <link>/post/2016-05-17-hello-world-again/</link>
+      <link>http://klug.ir/blog/post/2016-05-17-hello-world-again/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/2016-05-17-hello-world-again/</guid>
+      <guid>http://klug.ir/blog/post/2016-05-17-hello-world-again/</guid>
       <description>&lt;p&gt;هیجان‌زده‌ایم از این‌که اعلام می‌کنیم سایت &lt;a href=&#34;http://klug.ir&#34;&gt;klug.ir&lt;/a&gt; و &lt;a href=&#34;http://klug.ir/blog&#34;&gt;بلاگ&lt;/a&gt; (همین‌جا) با طراحی و ساختاری نو در دسترس قرار گرفته است. این نخستین بلاگ گروه کاربران گنو/لینوکس کرمان نیست، اما از آخرین مطلب منتشر شده با نرم‌افزار پیشین (وردپرس)، زمان زیادی می‌گذرد. مطالب آرشیوی آن را - که گزارش فعالیت‌های گذشتهٔ لاگ کرمان است - از &lt;a href=&#34;http://web.archive.org/web/20140118203056/http://www.klug.ir&#34;&gt;این پیوند&lt;/a&gt; می‌توانید مرور کنید. با فاصله‌ای که از آن خاموشی گرفته‌ایم، با سلامی دوباره به دنیا آغاز می‌کنیم (-:&lt;/p&gt;
 
 &lt;p&gt;از طریق سایت می‌خواهیم فعالیت‌های لاگ را ضمن آرشیو کردن، در فضای مجازی نیز دنبال کنیم و از این طریق ارتباط اعضا را بیرون از نشست‌های لاگ نیز نگه داریم.&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>پرسش‌های متداول</title>
-      <link>/about/</link>
+      <link>http://klug.ir/blog/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>http://klug.ir/blog/about/</guid>
       <description>&lt;p&gt;&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; URL=&#39;http://klug.ir/faq&#39;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
