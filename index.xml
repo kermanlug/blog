@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>کرمان‌لاگ - وبلاگ</title>
-    <link>http://klug.ir/blog/</link>
+    <link>http://klug.ir/</link>
     <description>Recent content on کرمان‌لاگ - وبلاگ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fa-ir</language>
     <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://klug.ir/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://klug.ir/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>پرسش‌های متداول</title>
-      <link>http://klug.ir/blog/about/</link>
+      <link>http://klug.ir/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://klug.ir/blog/about/</guid>
+      <guid>http://klug.ir/about/</guid>
       <description>&lt;p&gt;&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; URL=&#39;http://klug.ir/faq&#39;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
