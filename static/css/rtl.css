@@ -195,6 +195,7 @@ p a {
 
 input[type="email"], input[type="tel"], input[type="text"], input[type="password"], select, textarea{
 	text-align: right;
+	background: transparent;
 }
 
 /*=====  End of menu  ======*/
@@ -238,19 +239,31 @@ input[type="email"], input[type="tel"], input[type="text"], input[type="password
 .m-focused .m-postinput, .m-replyform .m-preview .m-post{
 	direction: rtl;
 }
+.m-focused .m-postinput{
+	border-color: transparent !important;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+	transition: all 0.2s ease 0s !important;
+	-o-transition: all 0.2s ease 0s !important;
+	-webkit-transition: all 0.2s ease 0s !important;
+	-moz-transition: all 0.2s ease 0s !important;
+}
 
-.m-page a {
-	color: #E5E5E5 !important;
+
+.m-page{
+	padding: 1.4em 0 0 0 !important;
 }
 
 .m-post-upload em {
-	color: #E5E5E5 !important;
+	color: #7E7E7E !important;
 	margin: .2em !important;
+}
+.m-show-help{
+	
+	color: #7E7E7E !important;
 }
 
 .m-postinput {
-	box-shadow: 0 0 .2em  inset !important;
-	border-color: #E5E5E5 !important;
+	border-color: 0.5px solid #f5f5f5;
 	color: #2d2d2d;
 }
 
@@ -278,6 +291,18 @@ input[type="email"], input[type="tel"], input[type="text"], input[type="password
 
 .m-preview .m-preview-title {
 	   margin: auto !important;
+}
+
+.m-controls button {
+	border-radius: 0px !important;
+	background-color: #fff !important;
+	border:0.5px solid #f5f5f5 !important;
+}
+
+.m-button:hover, .moot button:hover{
+	background-color: #fff !important;
+	background-image:none !important;
+	box-shadow:  0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
 }
 
 /*=====  End of Muut  ======*/
