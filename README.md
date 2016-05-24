@@ -1,5 +1,5 @@
 ## klug.ir/*BLOG*
-\- This repository contains the source code for [klug.ir/blog](http://klug.ir/blog) web site.
+\- This repository contains the source code for [klug.ir/blog](http://klug.ir/blog).
 
 \- Feel free to fix typos or make clarifications with a pull request (PR).
 
@@ -38,9 +38,13 @@ If you'd like to publish a post, there are 3 plans to do it:
 - Plan A: Create a post online.
 - Plan B: Scroll down to find!
 
-#### Plan A+
+##### Plan A+
 
-1. Install Hugo: [Archlinux (AUR)](https://aur.archlinux.org/packages/hugo-git)/[Ubuntu (16.04)](http://packages.ubuntu.com/xenial/hugo)/['.deb' Packages](https://github.com/spf13/hugo/releases) (optional, recommended)
+1. Install Hugo (optional, recommended)
+
+    - [Ubuntu (16.04)](http://packages.ubuntu.com/xenial/hugo): `# apt install hugo`
+    - ['.deb' Packages](https://github.com/spf13/hugo/releases) (Debian and other flavours)
+    - [Archlinux (AUR)](https://aur.archlinux.org/packages/hugo-git): `pacaur -S hugo`
 
 2. Fork the master repo into your GitHub account. Clone it. Navigate there.
 

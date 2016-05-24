@@ -10,7 +10,7 @@
                 {{ else if $pic.imperfect }}
                     <a href="{{ $.Site.BaseURL }}" class="logo"><img src="{{ $.Site.BaseURL }}/{{ . }}" alt="{{ $pic.alt }}" /></a>
                 {{ else }}
-                    <img src="{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
+                    <img src="{{ $.Site.BaseURL }}/{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
                 {{ end }}
             {{ end }}
             {{ with .Site.Params.intro }}
@@ -73,7 +73,7 @@
                             {{ with .Site.Params.viewMorePostLink }}
                                 {{ . }}
                             {{ else }}
-                                "/post/"
+                                "{{ $.Site.BaseURL }}post/"
                             {{ end }}
                             class="button">پست‌‌های بیش‌تر</a></li>
                         </ul>
@@ -89,7 +89,7 @@
         <section id="categories">
             <ul class="posts">
                 <header>
-                    <h3><a href="/categories/">دسته‌بندی</a></h3>
+                    <h3><a href="{{ $.Site.BaseURL }}categories/">دسته‌بندی</a></h3>
                 </header>
 
                 {{ if .Site.Params.categoriesByCount }}
@@ -102,7 +102,7 @@
                     <li>
                         <article>
                             <header>
-                                <a href="/categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
+                                <a href="{{ $.Site.BaseURL }}categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
                                 <span style="float:left;">{{ $value.Count }}</span>
                             </header>
                         </article>
@@ -119,7 +119,7 @@
             <p>{{ . }}</p>
 
             <ul class="actions">
-                <li><a href="/about/" class="button">بیش‌تر بدانید</a></li>
+                <li><a href="http://klug.ir/faq" class="button">بیش‌تر بدانید</a></li>
             </ul>
         </section>
         {{ end }}
@@ -136,7 +136,13 @@
                 {{ end }}
             </ul>
 
-            <p class="copyright">&copy; {{ .Site.Title }}. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+            <p class="copyright">&copy; {{ .Site.Title }} | پروانه درون‌مایه این وبلاگ <a rel="license" href="https://www.gnu.org/licenses/fdl.html">GFDL</a> می‌باشد.
+            <br>
+            <br>
+            پوستهٔ <a href="//github.com/jpescador/hugo-future-imperfect" target="_blank">Future Imperfect</a>
+            <br>
+            با افتخار نیرو گرفته از <a href="//gohugo.io" target="_blank">Hugo</a>
+            </p>
         </section>
 
 </section>

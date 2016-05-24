@@ -1,6 +1,6 @@
 baseurl = "http://klug.ir/blog/"
 languageCode = "fa-ir"
-title = "کرمان‌لاگ - وبلاگ"
+title = "کرمان‌لاگ"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -43,7 +43,7 @@ googleAnalytics = ""
 [params.intro]
     header    = "وبلاگ گروه کاربران گنو/لینوکس کرمان"
 
-    paragraph = "<a href=\"http://html5up.net\">کرمان‌لاگ</a> > <a href=\"http://html5up.net\">وبلاگ</a> <i class='fa fa-hand-peace-o'></i>"
+    paragraph = "<a href=\"/\">کرمان‌لاگ</a> > <a href=\"/blog\">وبلاگ</a>"
 
     about     = " ما، لاگ کرمان، با آموزش، پشتیبانی و ترویج نرم‌افزارهای آزاد (مانند سیستم‌عامل گنو/لینوکس) برای ارتقای استفادهٔ آگاهانه و هوشمندانه از رایانه‌ها در جامعه تلاش می‌کنیم. ماهانه نشست‌هایی را تشکیل می‌دهیم و اگر فرصتش پیش بیاید جشن‌ها و همایش‌هایی را برگزار می‌کنیم. همواره به دوستان جدید در لاگ خوش‌آمد می‌گوییم."
 
@@ -67,14 +67,9 @@ googleAnalytics = ""
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
 [[menu.main]]
-    name = "پرسش‌های متداول"
-    url = "http://klug.ir/faq"
-    weight = 1
-
-[[menu.main]]
     name = "بلاگ"
     url = "/"
-    weight = 2
+    weight = 1
     
 #[[menu.main]]
 #    name = "دسته‌بندی"
