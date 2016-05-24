@@ -4,7 +4,7 @@ title = "کرمان‌لاگ - وبلاگ"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = ""
+disqusShortname = "kermanlug"
 googleAnalytics = ""
 
 [params]
@@ -36,7 +36,7 @@ googleAnalytics = ""
 
     # Loading min files for exampleSite
     customCSS            = ["css/main.min.css","css/rtl.css"]
-    customJS             = ["/js/main.min.js"]
+    customJS             = ["js/main.min.js"]
 
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
@@ -67,8 +67,8 @@ googleAnalytics = ""
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
 [[menu.main]]
-    name = "ویکی"
-    url = "http://klug.ir/wiki"
+    name = "پرسش‌های متداول"
+    url = "http://klug.ir/faq"
     weight = 1
 
 [[menu.main]]
