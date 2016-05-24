@@ -42,9 +42,9 @@ If you'd like to publish a post, there are 3 plans to do it:
 
 1. Install Hugo (optional, recommended)
 
-    - [Ubuntu (16.04)](http://packages.ubuntu.com/xenial/hugo): `# apt install hugo`
-    - ['.deb' Packages](https://github.com/spf13/hugo/releases) (Debian and other flavours)
-    - [Archlinux (AUR)](https://aur.archlinux.org/packages/hugo-git): `pacaur -S hugo`
+    - Ubuntu 16.04: `# apt install hugo`
+    - [.deb Packages](https://github.com/spf13/hugo/releases) (Debian and other flavours)
+    - [Archlinux (AUR)](https://aur.archlinux.org/packages/hugo-git): `$ pacaur -S hugo`
 
 2. Fork the master repo into your GitHub account. Clone it. Navigate there.
 
