@@ -109,6 +109,7 @@ ul li a{
 	justify-content: inherit;
 }
 
+.author, h1, h2, h3, h4, h5, h6,
 article.post h2, article.post h3, article.post h4, article.post p{
 	direction: rtl;
 }
