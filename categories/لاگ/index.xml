@@ -29,7 +29,7 @@
 &lt;ul&gt;
 &lt;li&gt;Hostهای مرسوم (اشتراکی و VPS)&lt;/li&gt;
 &lt;li&gt;برخی فضاهای میزبانی فایل مانند &lt;a href=&#34;https://dropbox.com&#34;&gt;دراپ‌باکس&lt;/a&gt; و &lt;a href=&#34;http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html&#34;&gt;Amazon S3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;برخی سرویس‌های مدیریت مخزن گیت مانند &lt;a href=&#34;https://pages.github.com&#34;&gt;گیت‌هاب&lt;/a&gt;، &lt;a href=&#34;http://docs.gitlab.com/ee/pages/README.html&#34;&gt;گیت‌لب&lt;/a&gt; و &lt;a href=&#34;https://www.aerobatic.com/&#34;&gt;Aerobatic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;برخی سرویس‌های مدیریت مخزن گیت مانند &lt;a href=&#34;https://pages.github.com&#34;&gt;گیت‌هاب&lt;/a&gt;، &lt;a href=&#34;https://bitbucket.org&#34;&gt;بیت‌باکت&lt;/a&gt; (با اتصال به  &lt;a href=&#34;https://www.aerobatic.com/&#34;&gt;Aerobatic&lt;/a&gt;) و &lt;a href=&#34;http://docs.gitlab.com/ee/pages/README.html&#34;&gt;گیت‌لب&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;و&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 
