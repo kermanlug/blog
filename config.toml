@@ -1,4 +1,4 @@
-baseurl = "https://klug.ir/blog/"
+baseurl = "http://klug.ir/blog/"
 canonifyurls = "true"
 languageCode = "fa-ir"
 title = "کرمان‌لاگ"
