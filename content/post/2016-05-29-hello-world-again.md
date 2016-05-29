@@ -27,7 +27,7 @@ type = "post"
 
 - Hostهای مرسوم (اشتراکی و VPS)
 - برخی فضاهای میزبانی فایل مانند [دراپ‌باکس](https://dropbox.com) و [Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html)
-- برخی سرویس‌های مدیریت مخزن گیت مانند [گیت‌هاب](https://pages.github.com)، [گیت‌لب](http://docs.gitlab.com/ee/pages/README.html) و [Aerobatic](https://www.aerobatic.com/) 
+- برخی سرویس‌های مدیریت مخزن گیت مانند [گیت‌هاب](https://pages.github.com)، [بیت‌باکت](https://bitbucket.org) (با اتصال به  [Aerobatic](https://www.aerobatic.com/)) و [گیت‌لب](http://docs.gitlab.com/ee/pages/README.html) 
 - و...
 
 امتیاز میزبانی رایگان روی گیت‌هاب و رها شدن از نگه‌داری خود نرم‌افزار سایت‌ساز ما را در استفاده از یک نرم‌افزار سازندهٔ سایت ایستا قانع کرد. اگر به سایت [Staticgen.com](http://Staticgen.com) سر بزنید، می‌بینید که چقدر دستتان در انتخاب این نوع نرم‌افزارهای سایت‌ساز باز است، گزینه‌های زیادی که در زبان‌های مختلف و با ویژگی‌ها و رویکردهای خاص خودشان توسعه یافته‌اند.
