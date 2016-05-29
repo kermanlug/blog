@@ -8,9 +8,9 @@
                 {{ if $pic.circle }}
                     <img src="{{ . }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
                 {{ else if $pic.imperfect }}
-                    <a href="{{ $.Site.BaseURL }}" class="logo"><img src="{{ $.Site.BaseURL }}/{{ . }}" alt="{{ $pic.alt }}" /></a>
+                    <a href="/" class="logo"><img src="{{ . }}" alt="{{ $pic.alt }}" /></a>
                 {{ else }}
-                    <img src="{{ $.Site.BaseURL }}/{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
+                    <img src="{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
                 {{ end }}
             {{ end }}
             {{ with .Site.Params.intro }}
@@ -73,7 +73,7 @@
                             {{ with .Site.Params.viewMorePostLink }}
                                 {{ . }}
                             {{ else }}
-                                "{{ $.Site.BaseURL }}post/"
+                                "/post/"
                             {{ end }}
                             class="button">پست‌‌های بیش‌تر</a></li>
                         </ul>
@@ -89,7 +89,7 @@
         <section id="categories">
             <ul class="posts">
                 <header>
-                    <h3><a href="{{ $.Site.BaseURL }}categories/">دسته‌بندی</a></h3>
+                    <h3><a href="/categories/">دسته‌بندی</a></h3>
                 </header>
 
                 {{ if .Site.Params.categoriesByCount }}
@@ -102,7 +102,7 @@
                     <li>
                         <article>
                             <header>
-                                <a href="{{ $.Site.BaseURL }}categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
+                                <a href="/categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
                                 <span style="float:left;">{{ $value.Count }}</span>
                             </header>
                         </article>
