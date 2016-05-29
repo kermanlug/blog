@@ -21,24 +21,24 @@ footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe,
 img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output,
 p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub,
 summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul,
-var, video{
+var, video {
 	font-family: 'Vazir', 'pfont', 'Ubuntu';
 }
 
-body{
+body {
 	background-color: #fcfcfc;
 }
-.post{
+.post {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-#back-to-top{
+#back-to-top {
 	color: unset;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 #back-to-top :hover,
-#back-to-top:hover::before{
+#back-to-top:hover::before {
 	color:#000 !important;
 }
 
@@ -46,13 +46,20 @@ body{
 =            sidebar            =
 ===============================*/
 
-#footer .copyright, #menu .links > li a p{
+#wrapper {
+        -moz-flex-direction: row;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+}
+
+#footer .copyright, #menu .links > li a p {
 
 	letter-spacing: 0px;
 	font-size: 0.9em;
 }
 
-#sidebar{
+#sidebar {
 	direction: rtl;
 	margin-left: 3em;
 	margin-right: 0em;
@@ -62,7 +69,7 @@ body{
 	width: 5em;
 }
 
-#intro .logo::before{
+#intro .logo::before {
 	background-image:none;
 }
 
@@ -83,37 +90,64 @@ ul li a{
 	direction: ltr;
 }
 
-.post > footer .stats li, .post > header .meta{
+ul {
+    padding-left: 0em;
+    padding-right: 1em;
+}
 
+.post > footer .stats li, .post > header .meta {
 	border-right: 1px solid rgba(160, 160, 160, 0.3);
 	border-left: 0px;
 }
 
-.author, h1, h2, h3, h4, h5, h6{
+.author, h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0em;
 }
 
-.post > footer .stats{
+.post > footer .stats {
 	direction: rtl;
 }
 
-.post > footer .stats li{
+.post > footer .stats li {
 	margin-right: 2em;
 }
 
-.post > header {
+.post > header,
+.post > footer,
+.button.big {
 	direction: rtl;
 }
 
-.author{
+.author {
 	justify-content: inherit;
 }
 
-article.post h2, article.post h3, article.post h4, article.post p{
+.author, h1, h2, h3, h4, h5, h6,
+article.post h2,
+article.post h3,
+article.post h4,
+article.post p,
+ul.actions {
 	direction: rtl;
 }
 
-.actions li .button:hover{
+ul.actions.pagination .previous::before {
+    content: '\f054'
+}
+
+ul.actions.pagination .next::after {
+    content: '\f053'
+}
+
+.button::before {
+    left: 1em;
+}
+
+.button::after {
+    left: -1em;
+}
+
+.actions li .button:hover {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	/*border: 0px;*/
 	color:#000 !important;
@@ -123,7 +157,7 @@ article.post h2, article.post h3, article.post h4, article.post p{
 	-moz-transition: all 0.2s ease 0s !important;
 }
 
-.button, button, input[type="submit"], input[type="reset"], input[type="button"]{
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
 	box-shadow: inherit ;
 	-o-box-shadow: inherit ;
 	-moz-box-shadow: inherit ;
@@ -135,7 +169,7 @@ article.post h2, article.post h3, article.post h4, article.post p{
 	font-weight: 400;
 }
 
-.post > footer .stats li, header p{
+.post > footer .stats li, header p {
 	letter-spacing: 0px;
 }
 
@@ -146,29 +180,29 @@ article.post h2, article.post h3, article.post h4, article.post p{
 =            menu            =
 ============================*/
 
-#header .main .search input{
+#header .main .search input {
 	color:#F4F4F4;
 }
 
-#input_color{
+#input_color {
 	color:#000;
 }
 
-#menu .links{
+#menu .links {
 	direction: rtl;
 }
 
-#header{
+#header {
 	background-color: #056571;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-#header h2,#header h1 a{
+#header h2,#header h1 a {
 	color: #FFF;
 	font-weight: 800;
 }
 
-#header .links a{
+#header .links a {
 	color: #FFF ;
 	opacity: 1;
 }
@@ -184,17 +218,18 @@ p a {
 }
 
 #header .links ul li a:hover,
-#header .links ul li a:hover::before{
+#header .links ul li a:hover::before {
 	color: #FFF !important;
 	opacity:1 !important;
 }
 
-#header .main ul li > a::before{
+#header .main ul li > a::before {
 	color: #FFF;
 }
 
-input[type="email"], input[type="tel"], input[type="text"], input[type="password"], select, textarea{
+input[type="email"], input[type="tel"], input[type="text"], input[type="password"], select, textarea {
 	text-align: right;
+	background: transparent;
 }
 
 /*=====  End of menu  ======*/
@@ -204,7 +239,7 @@ input[type="email"], input[type="tel"], input[type="text"], input[type="password
 =            single post            =
 ===================================*/
 
-#social-share{
+#social-share {
 	direction: rtl;
 }
 
@@ -212,15 +247,8 @@ input[type="email"], input[type="tel"], input[type="text"], input[type="password
 
 
 @media (max-width: 48em) {
-
-
-	#sidebar{
+	#sidebar {
 		margin-left: 0px;
-	}
-
-	#wrapper{
-		display: flex;
-		flex-direction: column-reverse;	
 	}
 }
 
@@ -231,57 +259,6 @@ input[type="email"], input[type="tel"], input[type="text"], input[type="password
 #wrapper #main h1 {
 	text-align: right;
 }
-
-/*==================================
-=            Muut            =
-==================================*/
-.m-focused .m-postinput, .m-replyform .m-preview .m-post{
-	direction: rtl;
-}
-
-.m-page a {
-	color: #E5E5E5 !important;
-}
-
-.m-post-upload em {
-	color: #E5E5E5 !important;
-	margin: .2em !important;
-}
-
-.m-postinput {
-	box-shadow: 0 0 .2em  inset !important;
-	border-color: #E5E5E5 !important;
-	color: #2d2d2d;
-}
-
-.moot button {
-	background-color: #fff !important;
-	color: #3c3b3b !important;
-}
-
-.m-postinput, .m-focused .m-postinput {
-	padding-right: 30px !important;
-}
-
-#moot-logo {
-	padding: 0 !important;
-}
-
-.is-commenting .m-like, #moot-logo a {
-	display: none !important;
-}
-
-.is-commenting .m-replyform {
-	margin-top: -2em !important;
-	margin-bottom: -6.2em;
-	}
-
-.m-preview .m-preview-title {
-	   margin: auto !important;
-}
-
-/*=====  End of Muut  ======*/
-
 
 /*==================================
 =            EXTRA ELEMENTS            =
