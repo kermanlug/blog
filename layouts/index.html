@@ -1,8 +1,6 @@
 {{ partial "header" . }}
     {{ $.Scratch.Set "shareNav" true }}
     {{ partial "navbar" . }}
-
-    {{ partial "sidebar" . }}
     <!-- Main -->
     <div id="main">
        {{ if .Site.Params.orderByPublishDate }}
@@ -17,5 +15,5 @@
 
         {{ partial "pagination" . }}
     </div>
-  
+    {{ partial "sidebar" . }}
 {{ partial "footer" . }}
