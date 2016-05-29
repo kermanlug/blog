@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://klug.ir/blog/</loc>
+    <loc>http://klug.ir/blog/</loc>
     <lastmod>2016-05-29T14:59:45+04:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://klug.ir/blog/post/2016-05-29-hello-world-again/</loc>
+    <loc>http://klug.ir/blog/post/2016-05-29-hello-world-again/</loc>
     <lastmod>2016-05-29T14:59:45+04:30</lastmod>
   </url>
   
   <url>
-    <loc>https://klug.ir/blog/about/</loc>
+    <loc>http://klug.ir/blog/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
