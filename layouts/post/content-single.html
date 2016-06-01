@@ -1,0 +1,21 @@
+<article class="post">
+    {{ .Render "header" }}
+
+    <section id="social-share">
+        <ul class="icons">
+            {{ partial "share-links" . }}
+        </ul>
+    </section>
+    {{ .Render "featured" }}
+    <div id="content">
+        {{ .Content }}
+    </div>
+
+    <footer>
+        {{ .Render "footer-category" }}
+    </footer>
+</article>
+{{ .Render "prev-next" }}
+
+<a class="muut" href="https://muut.com/i/kermanlug/comments" type="dynamic"><p dir="rtl" style="color:gray;">در حال فراخوانی سامانهٔ دیدگاه‌ها...</p></a>
+<script src="//cdn.muut.com/1/moot.fa.min.js"></script>
