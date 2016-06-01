@@ -1,7 +1,7 @@
 /*==================================
 =            Muut Commenting System            =
 ==================================*/
-.m-focused .m-postinput, .m-replyform .m-preview .m-post, .m-app-loading, .m-loading-text {
+.m-postinput, .m-focused .m-postinput, .m-replyform .m-preview .m-post, .m-app-loading, .m-loading-text {
 	direction: rtl;
 }
 
