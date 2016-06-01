@@ -1,0 +1,97 @@
+/*==================================
+=            Muut Commenting System            =
+==================================*/
+.m-focused .m-postinput, .m-replyform .m-preview .m-post, .m-app-loading, .m-loading-text {
+	direction: rtl;
+}
+
+.m-app-loading .m-loading-text:before {
+	margin-right:auto;
+	margin-left:.3em;
+	left:auto;
+	right:0;
+}
+
+.m-focused .m-postinput {
+	border-color: transparent !important;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+	transition: all 0.2s ease 0s !important;
+	-o-transition: all 0.2s ease 0s !important;
+	-webkit-transition: all 0.2s ease 0s !important;
+	-moz-transition: all 0.2s ease 0s !important;
+}
+
+.m-help {
+	right: auto !important;
+	left: 0 !important;
+	margin-right: auto !important;
+}
+
+.m-help::after {
+    left: 1em !important;
+    right: auto !important;
+}
+
+.m-post-upload em {
+	color: #7E7E7E !important;
+	margin: .2em !important;
+}
+
+.m-post-upload {
+	left: .1em !important;
+	right: auto !important;
+}
+
+.m-show-help {
+	left: .2em !important;
+	right: auto !important;
+}
+
+.m-show-help {
+	
+	color: #7E7E7E !important;
+}
+
+.m-postinput {
+	border-color: 0.5px solid #f5f5f5;
+	color: #2d2d2d;
+}
+
+.moot button {
+	background-color: #fff !important;
+	color: #3c3b3b !important;
+}
+
+.m-postinput, .m-focused .m-postinput {
+	padding-left: 30px !important;
+}
+
+#moot-logo {
+	padding: 0 !important;
+}
+
+.is-commenting .m-like, #moot-logo a {
+	display: none !important;
+}
+
+.is-commenting .m-replyform {
+	margin-top: -2em !important;
+}
+
+.m-preview .m-preview-title {
+	   margin: auto !important;
+}
+
+.m-controls button {
+	border-radius: 0px !important;
+	background-color: #fff !important;
+	border:0.5px solid #f5f5f5 !important;
+}
+
+.m-button:hover, .moot button:hover {
+	background-color: #fff !important;
+	background-image:none !important;
+	box-shadow:  0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+/*=====  End of Muut  ======*/
