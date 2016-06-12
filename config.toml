@@ -10,7 +10,7 @@ googleAnalytics = ""
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
-    description          = "کرمان لاگ | گروه کاربران گنو/لینوکس کرمان | وبلاگ"
+    description          = "وبلاگ گروه کاربران گنو/لینوکس کرمان"
     # This will appear on the top left of the navigation bar
     navbarTitle          = "بلاگ"
     # Social media buttons that appear on the sidebar
