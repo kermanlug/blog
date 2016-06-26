@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://klug.ir/blog/</loc>
+    <lastmod>2016-06-26T18:14:10+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://klug.ir/blog/post/2016-06-26-meeting-8/</loc>
+    <lastmod>2016-06-26T18:14:10+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://klug.ir/blog/post/2016-06-01-meeting-7/</loc>
+    <lastmod>2016-06-01T14:25:10+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://klug.ir/blog/post/2016-05-29-hello-world-again/</loc>
+    <lastmod>2016-05-29T14:59:45+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://klug.ir/blog/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>
