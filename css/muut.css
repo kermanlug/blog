@@ -1,7 +1,7 @@
 /*==================================
 =            Muut Commenting System            =
 ==================================*/
-.m-postinput, .m-focused .m-postinput, .m-replyform .m-preview .m-post, .m-app-loading, .m-loading-text {
+.moot *, .m-postinput, .m-focused .m-postinput, .m-replyform .m-preview .m-post, .m-app-loading, .m-loading-text {
 	direction: rtl;
 }
 
@@ -48,7 +48,6 @@
 }
 
 .m-show-help {
-	
 	color: #7E7E7E !important;
 }
 
@@ -75,7 +74,16 @@
 }
 
 .is-commenting .m-replyform {
-	margin-top: -2em !important;
+	margin-top: 1em !important;
+}
+
+.is-commenting .m-nav-account {
+    text-align: left !important;
+}
+
+.is-commenting .m-reply .m-facelink {
+    float: right !important;
+    margin-right: 12px !important;
 }
 
 .m-preview .m-preview-title {
