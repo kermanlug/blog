@@ -83,7 +83,7 @@
 
 .is-commenting .m-reply .m-facelink {
     float: right !important;
-    margin-right: 12px !important;
+    margin-left: 12px !important;
 }
 
 .m-preview .m-preview-title {
